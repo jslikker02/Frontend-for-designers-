@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <link rel="stylesheet" href="Carousel.css">
+</head>
+<body>
+
+<div >
+  
+  <img src="afbeeldingen/IMG_0014.jpg"onmouseover="antwoord()"onmouseout="herstel()">
+
+</div>
+
+<div class="carousel">
+  
+  <img src="afbeeldingen/IMG_0021.jpg" onmouseover="antwoord1()"onmouseout="herstel()">
+
+</div>
+
+</body>
+<script src="Carousel.js"></script>
+</html>
