@@ -1,0 +1,52 @@
+//console.log("test")
+var slider = document.getElementById("kleuren");
+var output = document.getElementById("teller");
+var geel = document.getElementsByClassName("geleauto");
+var huidigeWaarde;
+//var geel = document.getElementById("test");
+
+
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+    output.innerHTML = this.value;
+}
+
+
+slider.addEventListener("change",myFunction)
+
+function myFunction() {
+    console.log("change: " + slider.value);
+    huidigeWaarde = slider.value;
+    if(huidigeWaarde>10 && huidigeWaarde<50){
+        console.log("huh?: geeel !");
+        showgeel();
+
+    }else{
+        console.log("njet");
+    }
+
+    //classlist object gebruiken om plaatjes te laten zien of weg te halen
+}
+console.log(slider.value);
+
+function showgeel(){
+  var fotos = document.querySelectorAll("img:not(.geleauto)");
+    console.log("fotos: " + fotos);
+    for (var auto of fotos) {
+        auto.classList.add("show");
+    }
+
+
+  /*if (huidigeWaarde == 50) {
+        console.log("teetet")
+        fotos.style.display = "none"
+
+
+    }
+    */
+//    else {
+//        geel.classList.remove('hidden')
+//    }
+
+}
