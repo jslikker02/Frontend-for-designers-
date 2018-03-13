@@ -1,0 +1,36 @@
+header{
+ background-color: black;
+    height: 5em;
+}
+body{
+    background-color: white;
+}
+
+h1{
+    color: white;
+
+
+}
+img{
+    width: 15em;
+    height: 10em;
+}
+input{
+    -webkit-appearance: none;
+    background-image: url(pictures/kleuren.png);
+    width: 50em;
+}
+
+li input{
+
+    background-color: white;
+    width: 30em;
+}
+
+.hidden{
+display: none;
+}
+.show{
+    display: none;
+}
+
