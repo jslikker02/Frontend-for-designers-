@@ -1,0 +1,9 @@
+
+function fotocarousel(n) {
+  var i;
+  var fotos = document.getElementsByClassName("foto");
+  if (n > fotos.length) {slideIndex = 1}
+  if (n < 1) { = fotos.length}
+  for (i = 0; i < fotos.length; i++) {
+      fotos[i].style.display = "none";
+  }
