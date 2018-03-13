@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="muziekstyle.css">
+</head>
+<header>
+    <h1>Picture seeker</h1>
+
+
+</header>
+
+<body>
+
+    <div class="kleurslider">
+        <input id="kleuren" type="range" min="1" max="100" value="0" class="slider">
+        <p>Value: <span id="teller"></span></p>
+    </div>
+
+    <main>
+        <img src="pictures/autogeel/gelerakker.jpg" alt="gele auto" class="geleauto" id="test">
+        <img src="pictures/autogeel/16990531933_6b987b1374_z.jpg" alt="gele auto" class="geleauto">
+        <img src="pictures/autogeel/2289717178_d6593eeb58_z.jpg" alt="gele auto" class="geleauto">
+        <img src="pictures/autogeel/8099771979_05650feaf2_z.jpg" alt="gele auto" class="geleauto">
+
+        <img src="pictures/autoblauw/13902516156_5f7f54f080_z.jpg" alt="blauwe auto" class="blauweauto">
+        <img src="pictures/autoblauw/14294004498_15f532b998_z.jpg" alt="blauwe auto" class="blauweauto">
+        <img src="pictures/autoblauw/14644276701_cf8f1b50b6_z.jpg" alt="blauwe auto" class="blauweauto">
+        <img src="pictures/autoblauw/60340253_99778bd6e5_z.jpg" alt="blauwe auto" class="blauweauto">
+
+        <img src="pictures/autorood/15089224426_bbac2037a3_z.jpg" alt="rode auto" class="rodeauto">
+        <img src="pictures/autorood/15112581055_5ecdb96bc3_z.jpg" alt="rode auto" class="rodeauto">
+        <img src="pictures/autorood/23438336295_6ff77e7bb5_z.jpg" alt="rode auto" class="rodeauto">
+        <img src="pictures/autorood/7746161888_2408cb8ed0_z.jpg" alt="rode auto" class="rodeauto">
+
+        <img src="pictures/autogroen/117843856_6c359a2eb4_z.jpg" alt="groene auto" class="groeneauto">
+        <img src="pictures/autogroen/29777387390_bd3367b4ce_z.jpg" alt="groene auto" "groeneauto">
+        <img src="pictures/autogroen/3012368966_68bc9ba17e_z.jpg" alt="groene auto" "groeneauto">
+        <img src="pictures/autogroen/5491079038_0f0ee52140_z.jpg" alt="groene auto" "groeneauto">
+    </main>
+
+
+
+</body>
+<script src="muziek.js"></script>
+
+</html>
