@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+
+main{
+    width: 65em;
+    margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    background-color: darkred;
+    height: 3em;
+
+}
+div{
+    margin: auto
+}
+div img{
+    margin-left: -8em;
+    width: 70em;
+    height: 30em;
+}
+.slideshow-container{
+    margin-right: 10em;
+    width: 40em;
+
+}
+nav{
+
+    margin-top: -2em;
+    margin-bottom: 2em;
+}
+section{
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+
+}
+article{
+    border-style: ridge;
+    border-color: darkred;
+    width: 24em;
+    margin-bottom: 13em;
+    height: 25em;
+    overflow: hidden;
+    overflow: scroll;
+    margin-left: 1em;
+
+
+}
+article.active{
+    width: 24em;
+    margin-bottom: 13em;
+    height: 35em;
+    overflow: scroll;
+
+
+}
+article.down{
+    width: 24em;
+    margin-bottom: 13em;
+    height: 35em;
+    overflow: scroll;
+    display: none;
+
+}
+section.hover{
+    width: 10em;
+    height: 40em;
+    overflow:scroll;
+
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+h1{
+   text-align: center;
+    color: red;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+}
+h3{
+   text-align: center;
+    color: white;
+
+}
+h4{
+    color: red;
+}
+img{
+
+    margin-left: 5.4em;
+}
+button{
+
+    align-content: center;
+    margin-left: 12em;
+}
+nav button{
+    width: 9em;
+    height: 3em;
+    color:red;
+    background: black;
+    border: solid darkred;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    border-radius: 4em;
+
+}
+
+nav button:active{
+    width: 9em;
+    height: 3em;
+    background: darkred;
+    color:white;
+    border: solid red;
+    margin-bottom: 3em;
+    margin-top: -4em;
+    border-radius: 4em;
+
+}
+
+a{
+
+}
+/* carousel*/
+.slideshow-container {
+  width: 40em;
+  position: relative;
+  margin: auto;
+}
+
+/* knoppen plus en min*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  margin-left: -3.5em;
+margin-right: -6.5em;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* volgende knop*/
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Nummer aanduiding afbeelding */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Bolletjes */
+.rondje {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+  margin-left: auto;
+    margin-right: auto;
+
+}
+/* Bolletjes hover donkergrijs */
+.active, .rondje:hover {
+}
+
+
