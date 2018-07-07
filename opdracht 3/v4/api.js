@@ -6,7 +6,7 @@ var main = document.querySelector('main');
 var header = document.querySelector('header');
 var mijnfilterbutton = document.querySelectorAll('nav button');
 var mijna = document.querySelector('.prev');
-var requestURL = 'http://dennistel.nl/movies';
+var requestURL = 'https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json';
 
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
