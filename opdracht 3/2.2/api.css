@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+
+main{
+    background-color: ;
+    height: 60em;
+    width: 65em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    background-color: darkred;
+    height: 3em;
+
+}
+section{
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+
+}
+article{
+    background-color: grey;
+    margin: 2em;
+
+
+}
+section.hover{
+    width: 10em;
+    height: 40em;
+    background-color: grey;
+    overflow:scroll;
+
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+}
+h1{
+   text-align: center;
+    color: red;
+}
+img{
+    width: 10em;
+}
+
+a{
+    color: gray;
+}
+/* carousel*/
+.slideshow-container {
+  width: 40em;
+  position: relative;
+  margin: auto;
+}
+
+/* knoppen plus en min*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* volgende knop*/
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Nummer aanduiding afbeelding */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Bolletjes */
+.rondje {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+  margin-left: auto;
+    margin-right: auto;
+
+}
+/* Bolletjes hover donkergrijs */
+.active, .rondje:hover {
+  background-color: #717171;
+}
+
+h2{
+    color: red;
+    text-align: center;
+}
