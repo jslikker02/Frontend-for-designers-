@@ -19,7 +19,7 @@ Versie 5
 Ik heb de articles beter vormgegeven en ik kan op toon meer info klikken, waarna het venster van een film verder openklapt.  Dit heb ik gedaan doormiddel van overflow hidden en bij een active class deze weg te halen.
 
 versie 6
-Ik kan nu gebruik maken van mijn slider
+Ik kan nu gebruik maken van mijn slider met de pijltjes en pijltjes toetsen. Ik heb dit gedaan door aan de body een onkeydown toe te voegen en in de css een functie daaraan te koppelen die ook checkt welke toetsen de gebruiker indrukt. Ik heb nu geleerd dat in de code alle toetsen een eigen nummer hebben (zoals de pijltjes 37 en 39) en hierdoor kun je nu enkel met die pijltjes navigeren. Eerst kon het door op elke willekeurige toets te drukken.
 
 
 
