@@ -1,6 +1,6 @@
 var main = document.querySelector('main');
 var header = document.querySelector('header');
-var requestURL = 'http://dennistel.nl/movies/1';
+var requestURL = 'https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json';
 
 var request = new XMLHttpRequest();
 request.open('GET',requestURL)
