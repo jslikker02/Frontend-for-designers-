@@ -4,14 +4,23 @@ Ik heb hier de eerste elementen gecreeerd vanuit javascript. Normaalgesproken de
 https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v1/api.html
 
 Versie 2:
-De api doet het!! Uren lang eraan gewerkt en nu snap ik niet waarom ik er zo lang over heb gedaan. Wat ik wel weet is dat ik heel blij ben dat hij werkt. Hij toonde enkel een titel van een film, maar het voelde alsof ik google had uitgevonden.
+De api koppelen lukt me maar niet. Wel heb ik voorbereidend werk voor de slider gedaan. Ik hoop die snel af te krijgen en dat de api ook gaat werken.
 
-vanaf versie 3 zit de functionaliteit in de website.
+Versie 3:
+De api doet het!! Uren lang eraan gewerkt en nu snap ik niet waarom ik er zo lang over heb gedaan. Wat ik wel weet is dat ik heel blij ben dat hij werkt. Hij toonde enkel een titel van een film, maar het voelde alsof ik google had uitgevonden. Nu staan alle films er in maar stapelen ze zich op in 1 article. Ik moet nu uitzoeken hoe ik ze verspreid ga krijgen over meerdere articles.
+
+vanaf versie 4 zit de functionaliteit in de website.
+Ik ga nu lekker. De api werkt en ik heb het voor elkaar om alle films in een eigen article te stoppen. dit heb ik gedaan door een section te maken waarin ik met appendchild de articles in maak waarin ik de overige data uit de api in appendchild. 
+https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/2.2/api.html
+
+versie 5
 - Ik kan nu gebruik maken van mijn slider
 - Ik kan op toon meer info klikken, waarna het venster van een film verder openklapt.  Dit heb ik gedaan doormiddel van overflow hidden en bij een active class deze weg te halen.
 https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v2/api.html
 
 https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v3/api.html
+
+https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v4/api.html
 
 Versie 3:
 Hier is de filterfunctie toegevoegd aan de website.
