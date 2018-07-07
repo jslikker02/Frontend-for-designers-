@@ -1,3 +1,5 @@
+var body = document.querySelector('body');
+var img = document.querySelector('img');
 var main = document.querySelector('main');
 var header = document.querySelector('header');
 var requestURL = 'http://dennistel.nl/movies/1';
@@ -16,12 +18,20 @@ request.onload = function() {
   titeltekst(titeltekst);
 }
 
+
 function vuldeh2(jsonh2){
 var mijnh2= document.createElement('h2');
 mijnh2.textContent =jsonh2['title'];
 main.appendChild(mijnh2);
+
+var mijnimg= document.createElement('img');
+mijnimg.src = jsonh2.cover;
+main.appendChild(mijnimg);
+
 }
-console.log(mijnh2);
+
+
+
 
 
 
