@@ -17,23 +17,23 @@ https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/2.2/api.html
 
 Versie 5
 Ik heb de articles beter vormgegeven en ik kan op toon meer info klikken, waarna het venster van een film verder openklapt.  Dit heb ik gedaan doormiddel van overflow hidden en bij een active class deze weg te halen.
+https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v2.3/api.html
 
 versie 6
 Ik kan nu gebruik maken van mijn slider met de pijltjes en pijltjes toetsen. Ik heb dit gedaan door aan de body een onkeydown toe te voegen en in de css een functie daaraan te koppelen die ook checkt welke toetsen de gebruiker indrukt. Ik heb nu geleerd dat in de code alle toetsen een eigen nummer hebben (zoals de pijltjes 37 en 39) en hierdoor kun je nu enkel met die pijltjes navigeren. Eerst kon het door op elke willekeurige toets te drukken.
+De filter toetsen heb ik ook toegevoegd enkel krijg ik de filtering nog niet aan de praat.
+https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v2.4/api.html
 
 
-
-https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v3/api.html
-
-https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v4/api.html
-
-Versie 3:
+Versie 7:
 Hier is de filterfunctie toegevoegd aan de website.
 De gebruiker kan nu filteren op genre van de films.
+https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v3/api.html
 
-Versie 4: 
+Versie 8: 
 Hier heb ik duidelijker gemaakt wat de filterbuttons doen.
 Doordat ik ze inkleur wanneer ze ingeklikt. Nu snapt de gebruiker wanneer een filterfunctie actief is en wanneer niet.
+https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v4/api.html
 
 Versie 5:
 Hier zijn de buttons aangepast zodat ze beter in het geheel passen waardoor ze niet over het hoofd gezien worden en meer vertrouwen wekken bij de gebruiker. Ook heb ik een fadein toegepast bij de slider. Nu wanneer de pagina opstart of wanneer de gebruiker door de slider heen navigeert voegt dit effect een betere en proffesionelere feeling toe aan de website.
