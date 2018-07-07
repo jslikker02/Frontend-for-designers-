@@ -42,7 +42,7 @@ Hier heb ik duidelijker gemaakt wat de filterbuttons doen.
 Doordat ik ze inkleur wanneer ze ingeklikt. Nu snapt de gebruiker wanneer een filterfunctie actief is en wanneer niet.
 https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v4/api.html
 
-Versie 9:
+Versie 9 (Final):
 Hier zijn de buttons aangepast zodat ze beter in het geheel passen waardoor ze niet over het hoofd gezien worden en meer vertrouwen wekken bij de gebruiker. Ook heb ik een fadein toegepast bij de slider. Nu wanneer de pagina opstart of wanneer de gebruiker door de slider heen navigeert voegt dit effect een betere en proffesionelere feeling toe aan de website.
 
 https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/Final%20version/api.html 
