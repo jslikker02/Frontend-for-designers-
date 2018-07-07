@@ -72,41 +72,6 @@ function vuldeh2(jsonh2) {
             console.log(this);
             this.parentElement.classList.toggle('active');
 }
-            mijnfilterbutton[1].onclick = function () {
-            var element = document.querySelectorAll("article");
-                element[0].classList.toggle("down");
-            element[4].classList.toggle("down");
-            element[5].classList.toggle("down");
-}
-            mijnfilterbutton[0].onclick = function () {
-            var element = document.querySelectorAll("article");
-            element[0].classList.toggle("down");
-            element[4].classList.toggle("down");
-            element[5].classList.toggle("down");
-}
-             mijnfilterbutton[2].onclick = function () {
-            var element = document.querySelectorAll("article");
-            element[2].classList.toggle("down");
-                element[3].classList.toggle("down");
-}
-            mijnfilterbutton[3].onclick = function () {
-            var element = document.querySelectorAll("article");
-            element[1].classList.toggle("down");
-            element[2].classList.toggle("down");
-            element[3].classList.toggle("down");
-            element[4].classList.toggle("down");
-            element[5].classList.toggle("down");
-}
-            mijnfilterbutton[4].onclick = function () {
-            var element = document.querySelectorAll("article");
-            element[1].classList.toggle("down");
-            element[2].classList.toggle("down");
-            element[0].classList.toggle("down");
-            element[4].classList.toggle("down");
-            element[5].classList.toggle("down");
-}
-        }
-    }
 
 
 
