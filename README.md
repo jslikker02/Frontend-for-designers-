@@ -4,6 +4,7 @@ Ik heb gekozen voor dit vak omdat ik bezig wil blijven met code. Ik leer tijdens
 
 Proces van mijn eindproject:
 
+Versie 1:
 met de eerste versie van deze website ben ik nog aan het bouwen en van alles aan het uit proberen. 
 Ik heb hier de eerste elementen gecreeerd vanuit javascript. Normaalgesproken deed ik dit vanuit de HTML dus dat was eerst even wennen maar ging al snel goed.
 https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v1/api.html
@@ -16,15 +17,15 @@ Versie 3:
 De api doet het!! Uren lang eraan gewerkt en nu snap ik niet waarom ik er zo lang over heb gedaan. Wat ik wel weet is dat ik heel blij ben dat hij werkt. Hij toonde enkel een titel van een film, maar het voelde alsof ik google had uitgevonden. Nu staan alle films er in maar stapelen ze zich op in 1 article. Ik moet nu uitzoeken hoe ik ze verspreid ga krijgen over meerdere articles.
 https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v2.1/api.html
 
-vanaf versie 4 zit de functionaliteit in de website.
+Versie 4:
 Ik ga nu lekker. De api werkt en ik heb het voor elkaar om alle films in een eigen article te stoppen. dit heb ik gedaan door een section te maken waarin ik met appendchild de articles in maak waarin ik de overige data uit de api in appendchild. 
 https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/2.2/api.html
 
-Versie 5
+Versie 5:
 Ik heb de articles beter vormgegeven en ik kan op toon meer info klikken, waarna het venster van een film verder openklapt.  Dit heb ik gedaan doormiddel van overflow hidden en bij een active class deze weg te halen.
 https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v2.3/api.html
 
-versie 6
+versie 6:
 Ik kan nu gebruik maken van mijn slider met de pijltjes en pijltjes toetsen. Ik heb dit gedaan door aan de body een onkeydown toe te voegen en in de css een functie daaraan te koppelen die ook checkt welke toetsen de gebruiker indrukt. Ik heb nu geleerd dat in de code alle toetsen een eigen nummer hebben (zoals de pijltjes 37 en 39) en hierdoor kun je nu enkel met die pijltjes navigeren. Eerst kon het door op elke willekeurige toets te drukken.
 De filter toetsen heb ik ook toegevoegd enkel krijg ik de filtering nog niet aan de praat.
 https://jslikker02.github.io/Frontend-for-designers-/opdracht%203/v2.4/api.html
